@@ -166,7 +166,7 @@ class SiteNav extends React.Component<SiteNavProps> {
                     <Link to="/">Accueil</Link>
                   </li>
                   <li role="menuitem">
-                    <Link to="/about">le mosquée</Link>
+                    <Link to="/about">La mosquée</Link>
                   </li>
                   <li role="menuitem">
                     <Link to="/tags/education/">Education</Link>
