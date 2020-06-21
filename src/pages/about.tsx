@@ -97,28 +97,11 @@ const About: React.FC = () => (
       <main id="site-main" className="site-main" css={[SiteMain, outer]}>
         <article className="post page" css={[PostFull, NoImage]}>
           <PostFullHeader>
-            <PostFullTitle>le mosquée</PostFullTitle>
+            <PostFullTitle>la mosquée</PostFullTitle>
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
-            <div className="post-content">
-              <h1>BIENVENUE DANS LA GRANDE MOSQUÉE MOHAMMED VI</h1>
-              <p>
-                Véritable ambassadrice d’un islam de tolérance et de paix en France,
-                la Grande Mosquée Mohammed VI est un monument culturel et architectural
-                qui appartient à tous les stéphanois. La Grande Mosquée Mohammed VI
-                incarne l’islam pacifique et universel, héritage vivant d’un âge d’or
-                qui traverse les époques pour venir s’implanter à Saint-Étienne et
-                partager avec ses habitants le rayonnement de son message.
-              </p>
-              <p>
-                Inaugurée le 19 juin 2012, elle devient rapidement l’un des sites les plus
-                visités de la région Auvergne-Rhône-Alpes et se positionne comme un édifice
-                incontournable lors des Journées Européennes du Patrimoine.
-              </p>
-            </div>
             <Gallery photos={photos} />
-  
           </PostFullContent>
         </article>
       </main>
