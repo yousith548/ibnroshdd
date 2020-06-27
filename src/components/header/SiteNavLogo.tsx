@@ -12,6 +12,7 @@ const SiteNavLogoStyles = css`
   line-height: 1em;
   font-weight: bold;
   letter-spacing: -0.5px;
+background-color: #00000099;
 
   :hover {
     text-decoration: none;
