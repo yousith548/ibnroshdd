@@ -20,7 +20,7 @@ exports.onPreBootstrap = ({ store, reporter }) => {
 module.exports = {
   siteMetadata: {
     title: 'Mosquée Averroès',
-    description: 'La Grande Mosquée Averroès de Montpellier مسجد ابن رشد بموبيليي',
+    description: 'La Grande Mosquée Averroès de Montpellier',
     coverImage: 'img/blog-cover.jpg',
     logo: 'img/ghost-logo.png',
     lang: 'fr', 
