@@ -32,10 +32,11 @@ export const SiteDescription = styled.h2`
   z-index: 10;
   margin: 0;
   padding: 5px 0;
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-weight: bold;
   letter-spacing: 0.5px;
   opacity: 1;
+  color: black;
 `;
 
 export const PostFeed = css`
