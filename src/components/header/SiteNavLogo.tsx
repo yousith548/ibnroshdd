@@ -59,7 +59,7 @@ const SiteNavLogo = () => (
     render={(data: SiteNavLogoProps) => (
       <Link className="site-nav-logo" css={SiteNavLogoStyles} to="/">
         {data.logo ? (
-          <img style="max-height: 120px;" src={data.logo.childImageSharp.fixed.src} alt={data.site.siteMetadata.title} />
+          <img style="max-height: 120px" src={data.logo.childImageSharp.fixed.src} alt={data.site.siteMetadata.title} />
         ) : (
           data.site.siteMetadata.title
         )}
