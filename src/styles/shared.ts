@@ -24,8 +24,9 @@ export const SiteTitle = styled.h1`
   z-index: 10;
   margin: 0;
   padding: 0;
-  font-size: 3.8rem;
+  font-size: 3.2rem;
   font-weight: 700;
+  color: black;
 `;
 
 export const SiteDescription = styled.h2`
