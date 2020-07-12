@@ -13,7 +13,7 @@ import {
   PostFeed,
   PostFeedRaise,
   SiteDescription,
-  SiteHeader,
+  SiteHeadertag,
   SiteHeaderContent,
   SiteMain,
   SiteTitle,
@@ -97,7 +97,7 @@ const Tags: React.FC<TagTemplateProps> = props => {
       <Wrapper>
         <header
           className={`${tagData && tagData.node.image ? '' : 'no-cover'}`}
-          css={[outer, SiteHeader]}
+          css={[outer, SiteHeadertag]}
           style={{
             backgroundImage:
               tagData && tagData.node.image ?

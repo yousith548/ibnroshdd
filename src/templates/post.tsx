@@ -19,7 +19,7 @@ import Subscribe from '../components/subscribe/Subscribe';
 import Wrapper from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
-import { inner, outer, SiteHeader, SiteMain } from '../styles/shared';
+import { inner, outer, SiteHeadertag, SiteMain } from '../styles/shared';
 
 const PostTemplate = css`
   .site-main {
@@ -282,7 +282,7 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
         {height && <meta property="og:image:height" content={height} />}
       </Helmet>
       <Wrapper css={PostTemplate}>
-        <header css={[outer, SiteHeader]}>
+        <header css={[outer, SiteHeadertag]}>
           <div css={inner}>
             <SiteNav />
           </div>

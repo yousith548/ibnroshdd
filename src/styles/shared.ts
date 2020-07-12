@@ -27,6 +27,7 @@ export const SiteTitle = styled.h1`
   font-size: 3.2rem;
   font-weight: 700;
   color: black;
+  background-color: #f7eeeeee;
 `;
 
 export const SiteDescription = styled.h2`
@@ -38,6 +39,7 @@ export const SiteDescription = styled.h2`
   letter-spacing: 0.5px;
   opacity: 1;
   color: black;
+  background-color: #f7eeeeee;
 `;
 
 export const PostFeed = css`
@@ -50,7 +52,7 @@ export const PostFeed = css`
 
 export const PostFeedRaise = css`
   @media (min-width: 900px) {
-    margin-top: -70px;
+    margin-top: 20px;
     padding-top: 0;
   }
 `;
@@ -76,6 +78,16 @@ export const SocialLink = css`
 
 export const SiteHeader = css`
   position: relative;
+  padding-top: 120px;
+  padding-bottom: 12px;
+  color: #fff;
+  /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
+  background: ${darken('0.05', colors.darkgrey)} no-repeat center center;
+  background-size: cover;
+`;
+
+export const SiteHeadertag = css`
+  position: relative;
   padding-top: 12px;
   padding-bottom: 12px;
   color: #fff;
@@ -93,6 +105,7 @@ export const SiteHeaderContent = styled.div`
   min-height: 200px;
   max-height: 450px;
   text-align: center;
+  padding-bottom: 20px;
 `;
 
 export const SiteHeaderStyles = css`

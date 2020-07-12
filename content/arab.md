@@ -16,8 +16,6 @@ Composé de plusieurs unités de valeur,l’objectif est que l’élève puisse 
 
 A cela s’ajoute des cours sur différents thèmes (bon comportement, …).
 
-Pour les nouveaux inscriptions, **veuillez remplir [notre formulaire]**
-
-(https://www.cognitoforms.com/JbkarEfer/CentreCulturelAverroesDeMontpellierACADÉMIELangueArabe)
+Pour les nouveaux inscriptions, veuillez remplir [notre formulaire](https://www.cognitoforms.com/JbkarEfer/CentreCulturelAverroesDeMontpellierACADÉMIELangueArabe)
 
   
