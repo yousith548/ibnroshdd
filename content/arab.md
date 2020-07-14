@@ -1,21 +1,28 @@
 ---
 title: "Apprentissage de la langue Arabe"
-author: Ghost
+author: A. Alaoui
 tags: 
-- education
+- Education
 image: img/INSCRIPTION.png
 date: "2020-06-19T10:00:00.000Z"
 draft: false
 ---
 
-**L'ACADÉMIE langue arabe du Centre culturel Averroes de Montpellier** lance l’inscription au cours d’apprentissage de la langue arabe aux enfants et aux jeunes.
+**L'académie du Centre culturel Averroes de Montpellier** lance l’inscription au cours de la langue arabe aux enfants et aux jeunes, pour l'annee 2020-2021.
 
-Ce cours de langue Arab a pour objectif de faire acquérir à l’élève le vocabulaire minimum lui servant dans la vie de tous les jours. Au fur et à mesure des leçons, l’élève saura se présenter, présenter sa famille, présenter ses amis, ses loisirs, … et tout ceci en langue arabe. L’objectif étant la communication dans un langage basique étant donné que ce programme est destiné aux élèves non arabophones.
+Ce cours de langue arabe a pour objectif de faire acquérir des compétences à l’élève : 
 
-Composé de plusieurs unités de valeur,l’objectif est que l’élève puisse au fur et à mesure des années, enrichir son vocabulaire, puisse tenir des conversations, décrire différentes choses et évènements.
+l'expression orale - l'expression écrite - la communication - et l'écritures.
 
-A cela s’ajoute des cours sur différents thèmes (bon comportement, …).
+Ces compétences lui servent dans la vie de tous les jours.
 
-Pour les nouveaux inscriptions, veuillez remplir [notre formulaire](https://www.cognitoforms.com/JbkarEfer/CentreCulturelAverroesDeMontpellierACADÉMIELangueArabe)
+L’objectif de ce programme pédagogique et de prendre en considération l’élève comme non arabophone.
+
+Pour reinscription et les nouvelles inscriptions 2020-2021, veuillez remplir [le formulaire suivant](https://www.cognitoforms.com/JbkarEfer/CentreCulturelAverroesDeMontpellierACADÉMIELangueArabe)
 
   
+
+
+
+ 
+
