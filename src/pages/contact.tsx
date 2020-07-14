@@ -32,13 +32,13 @@ const About: React.FC = () => (
       <main id="site-main" className="site-main" css={[SiteMain, outer]}>
         <article className="post page" css={[PostFull, NoImage]}>
           <PostFullHeader>
-            <PostFullTitle>La Grande Mosquée Averroès</PostFullTitle>
+            <PostFullTitle>La Grande Mosquée Averroès de Montpellier</PostFullTitle>
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
               <p>Adresse : 300 rue Emile Picard 34080 Montpellier </p>
-              <p>tel : 0033 619 064 980/0033 434 816 735</p>
-              <p>email : averroescentreculturel@gmail.com</p>
+              <p>Tel : 0033 619 064 980/0033 434 816 735</p>
+              <p>Email : averroescentreculturel@gmail.com</p>
           </PostFullContent>
         </article>
       </main>
