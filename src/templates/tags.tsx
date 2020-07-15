@@ -206,7 +206,6 @@ export const pageQuery = graphql`
         description
         siteUrl
         facebook
-        twitter
       }
     }
   }

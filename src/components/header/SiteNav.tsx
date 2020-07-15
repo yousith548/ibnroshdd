@@ -6,7 +6,8 @@ import { css } from '@emotion/core';
 
 import { SocialLink } from '../../styles/shared';
 import Facebook from '../icons/facebook';
-import Twitter from '../icons/twitter';
+import Instagram from '../icons/instagram';
+import Youtube from '../icons/youtube';
 import SubscribeModal from '../subscribe/SubscribeOverlay';
 import SiteNavLogo from './SiteNavLogo';
 
@@ -124,7 +125,8 @@ interface SiteNavData {
     siteMetadata: {
       title: string;
       facebook?: string;
-      twitter?: string;
+      instagram?: string;
+      youtube?: string;
       showSubscribe: boolean;
     };
   };
@@ -149,7 +151,8 @@ class SiteNav extends React.Component<SiteNavProps> {
               siteMetadata {
                 title
                 facebook
-                twitter
+                instagram
+                youtube
                 footer
               }
             }
@@ -171,6 +174,9 @@ class SiteNav extends React.Component<SiteNavProps> {
                     <Link to="/tags/education/">Education</Link>
                   </li>
                   <li role="menuitem">
+                    <Link to="/tags/evenements/">Evenements</Link>
+                  </li>
+                  <li role="menuitem">
                     <Link to="/contact/">Contactez-nous</Link>
                   </li>
                 </ul>
@@ -188,15 +194,26 @@ class SiteNav extends React.Component<SiteNavProps> {
                       <Facebook />
                     </a>
                   )}
-                  {config.twitter && (
+                  {config.instagram && (
                     <a
                       css={SocialLink}
-                      href={config.twitter}
-                      title="Twitter"
+                      href={config.instagram}
+                      title="Instagram"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Twitter />
+                      <Instagram />
+                    </a>
+                  )}
+                  {config.youtube && (
+                    <a
+                      css={SocialLink}
+                      href={config.youtube}
+                      title="Youtube"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Youtube />
                     </a>
                   )}
                 </SocialLinks>

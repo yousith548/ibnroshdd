@@ -415,7 +415,6 @@ export const query = graphql`
         title
         siteUrl
         facebook
-        twitter
         showSubscribe
         lang
       }

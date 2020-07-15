@@ -25,7 +25,7 @@ import {
 import { PageContext } from './post';
 import Facebook from '../components/icons/facebook';
 import Website from '../components/icons/website';
-import Twitter from '../components/icons/twitter';
+import Twitter from '../components/icons/instagram';
 
 const HiddenMobile = css`
   @media (max-width: 500px) {
@@ -342,7 +342,6 @@ export const pageQuery = graphql`
         description
         siteUrl
         facebook
-        twitter
       }
     }
   }

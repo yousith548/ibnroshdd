@@ -197,7 +197,8 @@ class SubscribeModal extends React.Component<any, SubscribeState> {
               siteMetadata {
                 title
                 facebook
-                twitter
+                instagram
+                youtube
                 footer
               }
             }

@@ -1,3 +1,8 @@
 - id: Education
-  description: .
+  description: L'académie du Centre culturel Averroes de Montpellier
   image: img/edu-cover.jpg
+
+- id: Evenements
+  description: Dernières actualités du mosquée
+  image: img/pic5.jpg
+

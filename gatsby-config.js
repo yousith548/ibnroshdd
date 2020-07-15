@@ -26,7 +26,8 @@ module.exports = {
     lang: 'fr', 
     siteUrl: 'https://www.acafibnrochd.com', // full path to blog - no ending slash
     facebook: 'https://www.facebook.com/mosqueeibnrochd/',
-    twitter: 'https://twitter.com/mosqueeibnrochd',
+    instagram : 'https://www.instagram.com/mosqueeibnrochd/',
+    youtube :'https://www.youtube.com/channel/UCbiELuu6rPa4X-8un4dl7pQ' ,
     showSubscribe: false, // subscribe button in site nav and home page
     mailchimpAction: '', // 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
     mailchimpName: '', // 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',

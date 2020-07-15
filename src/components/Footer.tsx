@@ -70,7 +70,8 @@ interface FooterData {
     siteMetadata: {
       title: string;
       facebook?: string;
-      twitter?: string;
+      instagram?: string;
+      youtube?: string;
       footer: string;
     };
   };
@@ -83,7 +84,8 @@ const Footer: React.FC = () => {
         siteMetadata {
           title
           facebook
-          twitter
+          instagram
+          youtube
           footer
         }
       }
@@ -109,15 +111,16 @@ const Footer: React.FC = () => {
               Facebook
             </a>
           )}
-          {config.twitter && (
-            <a href={config.twitter} target="_blank" rel="noopener noreferrer">
-              Twitter
+          {config.instagram && (
+            <a href={config.instagram} target="_blank" rel="noopener noreferrer">
+              Instagram
             </a>
           )}
-
-          <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
-            Ghost
-          </a>
+          {config.youtube && (
+            <a href={config.youtube} target="_blank" rel="noopener noreferrer">
+              Youtube
+            </a>
+          )}
 
           <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
