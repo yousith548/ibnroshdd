@@ -177,6 +177,9 @@ class SiteNav extends React.Component<SiteNavProps> {
                     <Link to="/tags/evenements/">Evenements</Link>
                   </li>
                   <li role="menuitem">
+                    <Link to="/donate/">Donation</Link>
+                  </li>
+                   <li role="menuitem">
                     <Link to="/contact/">Contactez-nous</Link>
                   </li>
                 </ul>
