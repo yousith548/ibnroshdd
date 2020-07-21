@@ -68,12 +68,16 @@ const prayer: React.FC = () => (
         </tbody>
     </table>
 </div>
-<script>
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
     var api_url = 'https://api.pray.zone/v2/times/today.json?ip=auto';
     document.addEventListener("DOMContentLoaded", function () {
         PrayerTimesApi();
     });
-</script>
+`
+  }}
+/> 
         </article>
       </main>
       <Footer />
