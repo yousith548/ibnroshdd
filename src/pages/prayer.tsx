@@ -5,7 +5,7 @@
     constructor(){
       super();
       this.state = {
-        times:[],
+        pr:[],
       };
 
     }
@@ -16,19 +16,21 @@
         return results.json();
       })
       .then(data=>{
-        let times = data.results.map((t,i)=>{
+        let pr = data.datetime.map((t,i)=>{
             return(
               <div key={i} >
-                <p>{t.datetime.Imsak}</p>
+                <p> acaf </p>
+                <p>{t.times.Imsak}</p>
               </div>
             )
         })
-        this.setState({times:times})
+        this.setState({pr:pr})
       })
     }
+    
 
     render() {
-      return (<div>{this.state.times}</div>)
+      return (<div>{this.state.pr}</div>)
     }
   }
 
