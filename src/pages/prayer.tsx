@@ -12,11 +12,11 @@
 
     componentDidMount(){
       fetch('https://api.pray.zone/v2/times/today.json?city=lille')
-      .then(datetime=>{
-        return datetime.json();
+      .then(results=>{
+        return results.json();
       })
       .then(data=>{
-        let pr = data.datetime.map((t,i)=>{
+        let pr = data.results.map((t,i)=>{
             return(
               <div key={i} >
                 <p> acaf </p>
@@ -27,6 +27,7 @@
         this.setState({pr:pr})
       })
     }
+    console.log(results);
     
 
     render() {
