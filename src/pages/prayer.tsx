@@ -27,7 +27,6 @@
         this.setState({pr:pr})
       })
     }
-    console.log(results);
     
 
     render() {
