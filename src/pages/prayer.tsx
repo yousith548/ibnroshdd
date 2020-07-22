@@ -12,8 +12,8 @@
 
     componentDidMount(){
       fetch('https://api.pray.zone/v2/times/today.json?city=lille')
-      .then(results=>{
-        return results.json();
+      .then(datetime=>{
+        return datetime.json();
       })
       .then(data=>{
         let pr = data.datetime.map((t,i)=>{
