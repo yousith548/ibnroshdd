@@ -19,7 +19,7 @@
         let times = data.results.map((t,i)=>{
             return(
               <div key={i} >
-                <p>{t.datetime.Imsak}<p/>
+                <p>{t.datetime.Imsak}</p>
               </div>
             )
         })
