@@ -61,7 +61,7 @@
     "react-photo-gallery": "^8.0.0",
     "react-responsive-carousel": "^3.2.8",
     "rehype-react": "6.0.0",
-    "sharp": "^0.25.4",
+    "sharp": "^0.30.5",
     "vfile-message": "^2.0.4"
   },
   "devDependencies": {
